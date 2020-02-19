@@ -1,0 +1,10 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+.search {
+    height:11px;
+}
+.nav-items {
+    float:right;
+}

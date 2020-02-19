@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,22 +7,32 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav style="text-align:justify;">
-        <div class="topnav">
-            <a href="#">&#9776;</a>
-            <img src="images/youtube.svg" alt="youtube">
-            <h3>Youtube</h3>
-
-            <input type="text" placeholder="Search Youtube">
-            <button >Search</button>
-              
-            <img src="images/camera.svg" alt="">
-            <img src="images/apps.svg" alt="">
-            <img src="images/notification.svg" alt="">
-            <img src="images/user.svg" alt="">
-
-                    
-            </div>
-    </nav>
+   <div class="nav-container">
+     <div class="nav-logo">
+     <img src="./images/youtube.svg" />
+    </div>
+    <div class="nav-search">
+     <input type="text" placeholder="Search" />
+     <button class="btn btn-search"><img class="search" src="./images/search.png" /></button>
+    </div>
+    <div class="nav-items">
+    <button class="btn btn-camera">
+    <img src="./images/camera.svg" />
+     </button>
+     <button class="btn btn-app">
+     <img src="./images/apps.svg" />
+    </button>
+    <button class="btn btn-notification">
+     <img src="./images/notification.svg" />
+    </button>
+    <button class="btn btn-user">
+     <img src="./images/user.svg" />
+    </button>     
+  </div>
+   </div>
+   <div class="body-container">
+       <div class="left-container"></div>
+       <div class="right-container"></div>
+   </div>
 </body>
 </html>
