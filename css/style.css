@@ -8,7 +8,7 @@ body {
 
 #navbar {
     height: 43px;
-    margin: 26px 75px 0px 80px;
+    margin: 28px 82px 0px 14px;
 }
 #navbar-left {
     width: 25%;
@@ -44,4 +44,40 @@ body {
     width: 470px;
     height: 20px;
 
+}
+.main-left {
+    width: 58%;
+    margin: 10px 0px 0px 33px;
+}
+#image img{
+   width: 100%;
+}
+.main-left-intro {
+    margin-top: 11px;
+}
+.main-left-intro  img {
+    height: 14px;
+    padding: 2px;
+}
+.main-left-intro-item {
+    float: right;
+    margin-top: -21px;
+}
+.main-left-channel-app {
+    float: right;
+    margin-top: -36px;
+}
+.main-left-channel-app button{
+    height: 29px;
+}
+.main-left-writecomment .comments img {
+ height: 14px;
+}
+.main-right {
+    width: 35%;
+    float: right;
+    margin-top: -1937px;
+}
+.top-2{
+    float:right;
 }
