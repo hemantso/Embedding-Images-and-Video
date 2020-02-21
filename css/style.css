@@ -81,3 +81,60 @@ body {
 .top-2{
     float:right;
 }
+#autoplay {
+    height: 40px;
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+#autoplay:hover {
+    cursor: pointer;
+}
+
+#image-of-next-video {
+    height: 130px;
+    width: 120px;
+    position:center;
+    right: 30px;
+}   
+
+#image-of-next-video {
+    cursor: pointer;
+}
+
+.video-links {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+    width: 100%;
+    flex-grow: 1;
+    margin-bottom: 70px;
+}
+
+.video-link {
+    flex-grow: 1;
+}
+
+.video-link p {
+    width: 220%;
+}
+
+.video-link #channel-name {
+    width: 220%;
+}
+
+.right-side hr {
+    width: 195%;
+    position: relative;
+    top: -70px;
+}
+
+.video-link p:hover, #channel-name:hover {
+    cursor: pointer;
+}
+
+h4 {
+    color: #595959;
+}
