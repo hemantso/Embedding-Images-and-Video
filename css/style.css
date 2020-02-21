@@ -45,7 +45,13 @@ body {
     height: 20px;
 
 }
+.main {
+    display:flex;
+}
 .main-left {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
     width: 58%;
     margin: 10px 0px 0px 33px;
 }
@@ -74,12 +80,25 @@ body {
  height: 14px;
 }
 .main-right {
-    width: 35%;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    width: 23%;
     float: right;
-    margin-top: -1937px;
+    margin-left: 74px;
 }
-.top-2{
-    float:right;
+.top {
+    display: flex;
+}
+.top ul {
+    display: flex;
+    list-style: none;
+}
+.top ul li {
+   margin: 11px 65px 20px 3px;
+}
+.top ul li img {
+    height:20px;
 }
 #autoplay {
     height: 40px;
@@ -93,10 +112,8 @@ body {
 }
 
 #image-of-next-video {
-    height: 130px;
-    width: 120px;
-    position:center;
-    right: 30px;
+    height: 109px;
+    width: 169px;
 }   
 
 #image-of-next-video {
@@ -105,20 +122,17 @@ body {
 
 .video-links {
     display: flex;
-    position: relative;
-    bottom: 30px;
-    right: 20px;
-    width: 100%;
-    flex-grow: 1;
-    margin-bottom: 70px;
+    margin-bottom: 12px;
+  
 }
 
 .video-link {
-    flex-grow: 1;
+    margin-bottom: 9px;
+    margin-left: 14px;
 }
 
 .video-link p {
-    width: 220%;
+    width: 200%;
 }
 
 .video-link #channel-name {
