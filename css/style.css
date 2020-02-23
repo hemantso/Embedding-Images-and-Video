@@ -5,7 +5,9 @@
 body {
     background-color: white;
 }
-
+.container {
+    width:100%;
+}
 #navbar {
     height: 43px;
     margin: 28px 82px 0px 14px;
@@ -35,7 +37,6 @@ body {
 #navbar-right ul li {
     display: inline-block;
     list-style: none;
-    float: right;
     padding-left: 40px;
     margin-top: -22px;
 
