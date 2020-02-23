@@ -10,10 +10,6 @@ Use of vectors of the icon on youtube with css and all of the page it's responsi
 
 - HTML, CSS.
 
-## Live Demo
-
-[Live Demo Link]()
-
 ## Authors
 
 👤 **Hemant soni**
@@ -24,9 +20,9 @@ Use of vectors of the icon on youtube with css and all of the page it's responsi
 
 👤 **Muhammad Arslan**
 
-- Github: [@githubhandle]()
-- Twitter: [@twitterhandle]()
-- Linkedin: [linkedin]()
+- Github: [@githubhandle](https://github.com/arslanbisharat)
+- Twitter: [@twitterhandle](https://twitter.com/arslan_bisharat)
+- Linkedin: [linkedin](https://www.linkedin.com/in/muhammad-arslan-2020bb156)
 
 ## 🤝 Contributing
 
