@@ -7,7 +7,7 @@ body {
 }
 .container {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 19px;
 }
 
 /* Navbar */
@@ -23,36 +23,33 @@ body {
     padding-left: 18px;
 }
 
-#navbar-center {
-    float:center;
-
-}
 #navbar-center button img {
     height: 15px;
 }
-#navbar-center button {
+#navbar-center >button {
     width: 3%;
-    height: 28px;
+    height: 25px;
     margin-left: -0.4%;
     margin-top: -3px;
 }
 #navbar-right {
     float: right;
-    margin-top: -33px;
+    margin-top: -23px;
     width: 22%;
+    margin-right: -4%;
 }
 
 #navbar-right ul li {
     display: inline-flex;
     list-style: none;
-    padding-left: 12%;
+    padding-left: 7%;
 }
 #navbar-right ul li img {
     width: 100%;
 }
 [type=text] {
     width: 40%;
-    height: 24px;
+    height: 21px;
 
 }
 
