@@ -17,7 +17,7 @@ body {
     float: left;
 }
 #navbar-left img {
-    height: 25px;
+    height: 20px;
     padding-left: 18px;
 }
 #navbar-right {
@@ -27,14 +27,15 @@ body {
 }
 #navbar-center {
     float:center;
-    
+
 }
 #navbar-center button img {
-    height: 13px;
+    height: 15px;
 }
 #navbar-center button {
     width: 40px;
     height: 24px;
+    margin-left:-3px ;
 }
 #navbar-right {
     width: 25%;
@@ -45,9 +46,9 @@ body {
 #navbar-right ul li {
     display: inline-block;
     list-style: none;
-    padding-left: 40px;
+    padding-left: 35px;
     margin-top: -22px;
-
+    float: right;
 }
 [type=text] {
     width: 40%;
@@ -81,7 +82,7 @@ body {
     padding: 2px;
 }
 .main-left-intro-item {
-    margin: 35px 0px 0px 209px;
+    margin: 35px 20px 10px 209px;
     
 }
 .main-left-channel-app {
@@ -93,6 +94,14 @@ body {
     height: 29px;
     color: #f3efef;
     width: 74%;
+    border: none;
+    padding: 10px 17px 13px 10px;
+     
+}
+.main-left-channel-app img{
+  
+    width: 20px;
+  
 }
 .main-left-writecomment .comments img {
  height: 14px;
@@ -102,7 +111,6 @@ body {
     justify-content: right;
     flex-direction: column;
     width: 42%;
-    float: right;
     margin-left: 74px;
     margin-top: 25px;
 }
