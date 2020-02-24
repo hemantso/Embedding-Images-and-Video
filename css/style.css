@@ -2,8 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
-    background-color: white;
+    background-color:#f5f1e98a;
+    font-family: Roboto, Arial, sans-serif;
+    
 }
 .container {
     width: 100%;
@@ -84,8 +89,17 @@ body {
     padding: 2px;
 }
 .main-left-intro-item {
-    margin: 35px 20px 10px 209px;
-    
+    margin: 42px 16px 4px 265px;
+    color: #757967;
+}
+.main-left-intro-item i {
+    margin-right: 13px;
+}
+.main-left-channel strong{
+    margin: 12px;
+}
+.main-left-channel{
+    margin-top: 6px;
 }
 .main-left-channel-app {
     float: right;
@@ -95,15 +109,18 @@ body {
     background-color: red;
     height: 29px;
     color: #f3efef;
-    width: 74%;
+    width: 92%;
     border: none;
-    padding: 10px 17px 13px 10px;
-     
+    padding: 7px 17px 13px 10px;
+    font-weight: bold;  
 }
 .main-left-channel-app img{
   
     width: 20px;
   
+}
+.main-left-writecomment i{
+    color: #757967;
 }
 .main-left-writecomment .comments img {
  height: 14px;
@@ -123,6 +140,13 @@ body {
     list-style: none;
     display: inline-flex;
     
+}
+.main-right .autoplay {
+    display: flex;
+    margin-left: 10px;
+}
+.main-right .autoplay p{
+    padding-left: 3px;
 }
 .top ul li img {
     height:20px;
@@ -150,6 +174,7 @@ body {
 }
 .video-links .next .second {
     margin-left: -21%;
+    font-size: 15px;
 }
 
 /* Footer */

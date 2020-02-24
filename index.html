@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>You Tube</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/80da3864aa.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -19,7 +20,8 @@
 
         <div id="navbar-center" >
           <input type="text" placeholder="Search" >
-          <button>hi</button>
+          <button><i class="fas fa-search"></i></button>
+          
         </div>
 
         <div id="navbar-right">
@@ -51,19 +53,19 @@
             <p>410,969 views .Feb 10,2018</p>
           </div>
             <div class="main-left-intro-item">
-              <i class="far fa-thumbs-up">1.6M</i>
-              <i class="far fa-thumbs-down">1.46K</i>
-              <button><i class="fas fa-share"></i>SHARE</button> 
+              <i class="fas fa-thumbs-up">1.6M</i>
+              <i class="fas fa-thumbs-down">1.46K</i>
+              <i class="fas fa-share">SHARE</i> 
               <i class="fa fa-ellipsis-h"></i> 
             </div>
           </div>
           <br />
           <hr />
           <div class="main-left-channel">
-            <p><strong>Hemant Technical</strong><br /><br />123K subscribers</p>
+            <i class="fas fa-user-tie"></i><strong>Hemant Technical</strong>
+            <br /><br /><p>123K subscribers</p>
             <div class="main-left-channel-app">
               <button>SUBSCRIBE</button>
-              <img src="./images/notification.svg" alt="notification" />
             </div>
             <br />
             <p>
@@ -85,41 +87,33 @@
             <div class="comments">
               <p>
                 <strong>Ema Chao</strong><br /><br />you tought me more in one
-                hour than my teache
+                hour than my teacher in 3 years
               </p>
               <br />
-              <img
-                src="https://image.flaticon.com/icons/svg/889/889221.svg"
-                alt="thumbsup"
-              />19 <img src="./images/thumbsdown.png" alt="thumbsdown" />1
+              <i class="fas fa-thumbs-up">19 </i>
+              <i class="fas fa-thumbs-down">1 </i>
               <br /><br /><a href="#">View replies</a>
             </div>
             <br />
             <hr />
             <div class="comments">
               <p>
-                <strong>Ema Chao</strong><br /><br />you tought me more in one
-                hour than my teache
+                <strong>Rahul</strong><br /><br />Nice video to learn basics
               </p>
               <br />
-              <img
-                src="https://image.flaticon.com/icons/svg/889/889221.svg"
-                alt="thumbsup"
-              />19 <img src="./images/thumbsdown.png" alt="thumbsdown" />1
+              <i class="fas fa-thumbs-up">19 </i>
+              <i class="fas fa-thumbs-down">1 </i>
               <br /><br /><a href="#">View replies</a>
             </div>
             <br />
             <hr />
             <div class="comments">
               <p>
-                <strong>Ema Chao</strong><br /><br />you tought me more in one
-                hour than my teache
+                <strong>Ajay</strong><br /><br />very good teaching skills
               </p>
               <br />
-              <img
-                src="https://image.flaticon.com/icons/svg/889/889221.svg"
-                alt="thumbsup"
-              />19 <img src="./images/thumbsdown.png" alt="thumbsdown" />1
+              <i class="fas fa-thumbs-up">19 </i>
+              <i class="fas fa-thumbs-down">1 </i>
               <br /><br /><a href="#">View replies</a>
             </div>
             <br />
@@ -134,9 +128,10 @@
                 <p><strong>Up next</strong></p>
               </li>
               <li>
-                <img src="./images/autoplayer.png" id="AUTOPLAY" alt="autoplayer" /><span
-                  >AUTOPLAY</span
-                >
+                <div class="autoplay">
+                <img src="./images/autoplayer.png" id="AUTOPLAY" alt="autoplayer" />
+                <p><strong>Autoplay</strong></p>
+              </div>
               </li>
             </ul>
           </div>
@@ -147,12 +142,14 @@
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
-                <strong>Lorem ipsum</strong>
+               <li class="second">
+                 <p>
+                <strong>REST API concepts and examples</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
              </ul> 
             </div>
           </div>   
@@ -162,226 +159,255 @@
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
-                <strong>Lorem ipsum</strong>
+               <li class="second">
+                 <p>
+                <strong>Javascript basics</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
-          <div class="video-links">
-            <div class="next">
-             <ul>
-               <li class="first">
-                <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img" />
-               </li>
-               <li class="second"><p>
-                <strong>Lorem ipsum</strong>
-              </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small>
-                </li>
-             </ul> 
-            </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
-                <strong>Lorem ipsum</strong>
+               <li class="second">
+                 <p>
+                <strong>Html Basics</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>1050 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
-                <strong>Lorem ipsum</strong>
+               <li class="second">
+                 <p>
+                <strong>Programming in Visual Basic</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>22350 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
-                <strong>Lorem ipsum</strong>
+               <li class="second">
+                 <p>
+                <strong>GitHub -</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>6000 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
-                <strong>Lorem ipsum</strong>
+               <li class="second">
+                 <p>
+                <strong>Node.js</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>2145 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
-                <strong>Lorem ipsum</strong>
+               <li class="second">
+                 <p>
+                <strong>Mongodb</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>100250 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
+               <li class="second">
+                 <p>
                 <strong>Lorem ipsum</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
+               <li class="second">
+                 <p>
                 <strong>Lorem ipsum</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
+               <li class="second">
+                 <p>
                 <strong>Lorem ipsum</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
+               <li class="second">
+                 <p>
                 <strong>Lorem ipsum</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
+               <li class="second">
+                 <p>
                 <strong>Lorem ipsum</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
+               <li class="second">
+                 <p>
                 <strong>Lorem ipsum</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
+               <li class="second">
+                 <p>
                 <strong>Lorem ipsum</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
+          </div>   
           <div class="video-links">
             <div class="next">
              <ul>
                <li class="first">
                 <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
                </li>
-               <li class="second"><p>
+               <li class="second">
+                 <p>
                 <strong>Lorem ipsum</strong>
               </p>
-              <small 
-                >Lorem ipsum, or lipsum as it is sometimes known</small
-              ></li>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
              </ul> 
             </div>
-          </div> 
-           
+          </div>   
+          <div class="video-links">
+            <div class="next">
+             <ul>
+               <li class="first">
+                <img src="./images/video.jpeg" class="image-of-next-video" alt="video-img"/>
+               </li>
+               <li class="second">
+                 <p>
+                <strong>Lorem ipsum</strong>
+              </p>
+              <p 
+                >Lorem ipsum, or lipsum as it is sometimes known</p>
+              <p>250 views</p>
+            </li>
+             </ul> 
+            </div>
+          </div>   
           
         </div>
       </div>
