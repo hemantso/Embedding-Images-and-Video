@@ -25,7 +25,7 @@ Use of vectors of the icon on youtube with css and all of the page it's responsi
 
 - Github: [@githubhandle](https://github.com/arslanbisharat)
 - Twitter: [@twitterhandle](https://twitter.com/arslan_bisharat)
-- Linkedin: [linkedin](https://www.linkedin.com/in/muhammad-arslan-2020bb156)
+- Linkedin: [linkedin](https://www.linkedin.com/in/muhammad-arslan)
 
 ## 🤝 Contributing
 
@@ -36,13 +36,3 @@ Feel free to check the [issues page](https://github.com/hemant-soni-vst-au4/yout
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
