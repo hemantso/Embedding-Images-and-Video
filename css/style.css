@@ -15,7 +15,7 @@ body {
     margin-top: 19px;
 }
 
-/* Navbar */
+
 #navbar {
     width:100%;
 }
@@ -58,7 +58,7 @@ body {
 
 }
 
-/* main part */
+
 .main-container {
     width: 100%;
 }
@@ -67,7 +67,7 @@ body {
     width: 100%
 }
 
-/* main left part */
+
 .main-left {
     display: flex;
     flex-direction: column;
@@ -89,11 +89,12 @@ body {
     padding: 2px;
 }
 .main-left-intro-item {
-    margin: 42px 16px 4px 265px;
+    margin: 42px 16px 4px 287px;
     color: #757967;
 }
 .main-left-intro-item i {
-    margin-right: 13px;
+    margin-right: 16px;
+    font-size: smaller;
 }
 .main-left-channel strong{
     margin: 12px;
@@ -126,7 +127,7 @@ body {
  height: 14px;
 }
 
-/* main right part */
+
 .main-right {
     display: flex;
     justify-content: right;
@@ -177,7 +178,6 @@ body {
     font-size: 15px;
 }
 
-/* Footer */
 footer{
     font-family: sans-serif;
     text-decoration: none;
