@@ -25,7 +25,7 @@ Use of vectors of the icon on youtube with css and all of the page it's responsi
 
 - Github: [@githubhandle](https://github.com/arslanbisharat)
 - Twitter: [@twitterhandle](https://twitter.com/arslan_bisharat)
-- Linkedin: [linkedin](https://www.linkedin.com/in/muhammad-arslan)
+- Linkedin: [linkedin](https://www.linkedin.com/in/muhammad-arslan-2020bb156)
 
 ## 🤝 Contributing
 
